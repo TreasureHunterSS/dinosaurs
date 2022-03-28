@@ -1,0 +1,200 @@
+.container{
+	width: 90%;
+	max-width: 1100px;
+	margin: auto;
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+header img{
+	display: block;
+	height: 50px; 
+	 filter: invert(100%);
+    width: 30px;
+    object-fit: contain;
+}
+header{
+	background-color:black;
+	height: 50px;
+	background-color: #212121;
+}
+header a{
+	/*background-color: blue;*/
+	display: block;
+	line-height: 50px;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	}
+	header ul{
+	/*background-color: tan;*/
+	float: left;
+	list-style: none;
+}
+header li{
+	float: left;
+}
+header ul a{
+	/*background-color: yellow;*/
+	padding-right: 15px;
+	padding-left: 15px;
+}
+header li:hover nav{
+  transform: translateY(0);
+}
+.headerRight{
+	/*background-color: blue;*/
+	float: right;
+}
+.headerRight p{
+ float: left;
+}
+.lulu{
+	float: left;
+	/*background-color: red;*/
+	}
+.phone img{
+	float: left;
+	padding-right: 10px;
+}
+.phone{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.headerRight a{
+	float: left;
+}
+#callMe{
+	border: 1px solid white;
+	line-height: 28px;
+	margin-top: 10px;
+	border-radius: 15px;
+	padding-left:15px;
+	padding-right: 15px; 
+	font-family: 'Nunito', sans-serif;
+}
+header a:hover{
+	background-color: #424242;
+}
+nav {
+	background-color: #212121;
+	position: absolute;
+	transform: translateY(-100%);
+}
+.menuItem{
+	z-index: 9999;
+	position: relative;
+	background-color: #212121;
+
+}
+.slider{
+white-space: nowrap;
+font-size: 0;
+transition: 0.3s;
+}
+.slide {
+	background-image: url("dino1.jpg");
+	display: inline-block;
+	width: 100%;
+	white-space: normal;
+	background-position: center;
+	background-size: cover;
+}
+.slide:nth-child(2){
+	background-image: url("dino2.jpg");
+}
+.slide:last-child{
+	background-image: url("dino3.jpg");
+}
+.slide h2{
+	font-size: 60px; 
+	margin-bottom: 20px;
+	margin-top:50px;
+	/*line-height: 45px;*/
+	color:white;
+	text-shadow: 0 0 10px black;
+	font-family: 'Nunito', sans-serif;
+	white-space: nowrap;
+	width: auto;
+	background-color: red;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.slide p{
+	font-size: 16px;
+	margin-bottom: 20px;
+	width: 60%;
+	line-height: 25px;
+	height: 100px;
+	background-color: tan;
+	overflow-y:scroll; 
+		width: 60%;
+	background: rgba(0, 0, 0,0.8);
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	padding:20px;
+	border-radius: 15px;
+}
+.slide a{
+	font-size: 16px;
+	margin-bottom: 50px;
+	display: inline-block;
+	font-family: 'Nunito', sans-serif;
+    color:black;
+    background-color: white;
+    border-radius: 25px;
+    padding:0 30px; 
+    line-height: 40px;
+    box-shadow: 0 0px 10px #000000bb;
+    transition: 0.3s;
+}
+.slide a:hover{
+	box-shadow: 0 10px 10px #000000bb;
+}
+.sliderButtons{
+  font-size: 0;
+  text-align: center;
+}
+.sliderButtons a{
+	background-color: white;
+	display: inline-block;
+	padding: 0 30px;
+	border-radius: 20px;
+	margin: 0 5px;
+	box-shadow: 0 0px 10px #000000bb;
+	transition: 0.3s;
+}
+.sliderButtons a:hover{
+    transform: translateY(-5px);
+}
+.sliderContainer{
+	overflow: hidden;
+}
+.sliderButtons img{
+height: 40px;
+width: 30px;
+object-fit: contain;
+}
+.sliderButtons a:first-child img{
+	transform: rotate(180deg);
+
+}
+.sectionTitle{
+	text-align: center;
+	padding-bottom:15px;
+    font-size: 40px; 
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+}
+.dino{
+	display: inline-block;
+	width: calc(100% / 3 - 20px);
+}
+.dino>img{
+	width: 100%;
+}
+.dinoIcon{
+	width: 20px;
+	height: 40px;
+}
